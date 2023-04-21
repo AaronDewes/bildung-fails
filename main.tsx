@@ -7,15 +7,17 @@ blog({
   description: "Ein Blog über die Digitalisierung in Rheinland-Pfalz",
   // header: <header>Your custom header</header>,
   // section: <section>Your custom section</section>,
-  // footer: <footer>Your custom footer</footer>,
+  footer: <footer>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T1KCCPEHPB"></script>
+  <script src="/ga.js" /></footer>,
   avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
   avatarClass: "rounded-full",
   author: "Aaron Dewes",
 
-  middlewares: [
+  // middlewares: [
 
     // If you want to set up Google Analytics, paste your GA key here.
-    ga("G-T1KCCPEHPB"),
+    // ga("G-T1KCCPEHPB"),
 
     // If you want to provide some redirections, you can specify them here,
     // pathname specified in a key will redirect to pathname in the value.
@@ -23,5 +25,5 @@ blog({
     //  "/hello_world.html": "/hello_world",
     // }),
 
-  ]
+  // ]
 });
